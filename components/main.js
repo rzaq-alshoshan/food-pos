@@ -6,7 +6,7 @@ import PaymentWindow from './payment/payment-window/PaymentWindow';
 
 class MainPage extends Component {
     componentDidMount() {
-        fetch(`http://kq00g.mocklab.io/categories`)
+        fetch(`https://pos-rzaq.proxy.beeceptor.com/categories`)
             .then(res => res.json())
             .then(json => this.setState({
                 categories: this.cleanCategories(json),

@@ -10,7 +10,7 @@ class SideBarList extends Component {
             id: 'logo', icon: 'bx:bxs-store-alt', link: '/'
         }
 
-        fetch(`http://kq00g.mocklab.io/munu-items`)
+        fetch(`https://pos-rzaq.proxy.beeceptor.com/nav`)
             .then(res => res.json())
             .then(json => this.setState({ elements: json, logoElement: logoElement }));
     }
