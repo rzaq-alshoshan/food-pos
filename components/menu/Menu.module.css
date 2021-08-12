@@ -1,0 +1,238 @@
+.menu {
+    margin: 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 65px;
+}
+
+.menu .header .title {
+    height: 65px;
+    color: #FFFFFF;
+}
+
+.menu .header .title h1 {
+    width: 164px;
+    height: 39px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.menu .header .title .date {
+    width: 137px;
+    height: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #E0E6E9;
+}
+
+.menu .header .search {
+    margin-left: auto;
+    padding: 8.5px 0px;
+    color: #FFFFFF;
+}
+
+.menu .header .icon {
+    width: 20px;
+}
+
+
+.menu .header .search .inputGroupPrepend {
+    height: 100%;
+    padding-left: 14px;
+    padding-right: 8px;
+    background: #2D303E;
+    border: 1px solid #393C49;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
+    border-right: 0px;
+    color: #FFFFFF;
+}
+
+.menu .header .search svg {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 46px;
+}
+
+.menu .header .search input {
+    max-width: 220px;
+    height: 48px;
+    background: #2D303E;
+    border: 1px solid #393C49;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border-left: 0px;
+}
+
+.menu .tabs {
+    margin-top: 24px;
+}
+
+.menu .tabs .navTabs {
+    border: 1px solid #393C49;
+    border-width: 0px 0px 1px 0px;
+}
+
+.menu .tabs .navLink {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 0px;
+    padding-left: 0px;
+}
+
+.menu .tabs .navItem:not(:last-child) .navLink {
+    padding-right: 32px;
+}
+
+.menu .tabs .active {
+    color: #EA7C69;
+    background-color: transparent;
+    border-color: transparent;
+    position: relative;
+}
+
+.menu .tabs .active:after {
+    content: '';
+    width: 37px;
+    height: 3px;
+    background: #EA7C69;
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+}
+
+.menu .dishes {
+    margin-top: 24px;
+    flex-grow: 1;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.menu .dishes::-webkit-scrollbar {
+    display: none;
+}
+
+.menu .dishes .categoryTitle {
+    margin-top: 10px;
+}
+
+.menu .dishes h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 100%;
+    margin-bottom: 34px;
+}
+
+.dishesArea {
+    display: grid;
+    grid-column-gap: 28px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(auto-fit, 192px);
+    margin: 0px;
+    justify-content: space-evenly;
+}
+
+.menu .dishes .col {
+    padding: 0;
+    margin-top: 34px;
+    cursor: pointer;
+}
+
+.menu .dishes .dish {
+    min-height: 226px;
+    width: 192px;
+    height: 100%;
+}
+
+.menu .dishes .image {
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+}
+
+.menu .dishes .image img {
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    left: 30px;
+    top: -34px;
+    border-radius: 50%;
+}
+
+.menu .dishes .details {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    min-height: 192px;
+    background: #1F1D2B;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 114px;
+    max-height: 100%;
+    height: 100%;
+}
+
+.menu .dishes .details::-webkit-scrollbar {
+    display: none;
+}
+
+.menu .dishes .details .name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    align-items: flex-start;
+    vertical-align: middle;
+    margin-bottom: 8px;
+    flex-grow: 1;
+}
+
+.menu .dishes .details .price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    align-items: center;
+    margin-bottom: 4px;
+    flex-grow: 1;
+}
+
+.menu .dishes .details .availability {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #ABBBC2;
+    align-items: flex-end;
+}

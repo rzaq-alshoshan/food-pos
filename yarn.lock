@@ -103,6 +103,11 @@
   resolved "https://nexus.elm.sa/repository/npm-group/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
+"@iconify/react@^3.0.0":
+  version "3.0.0"
+  resolved "https://nexus.elm.sa/repository/npm-group/@iconify/react/-/react-3.0.0.tgz#6efb1f7a2c8c4a5cf81ab9164cefddff782342be"
+  integrity sha512-HTGTCXEpNdr3Rf17VoUehn3ucak/L2211y39HnDTuW6b0FpB9By2AoxbDkzUv4OHOVlRU22TEY1767zcyptqBQ==
+
 "@next/env@11.0.1":
   version "11.0.1"
   resolved "https://nexus.elm.sa/repository/npm-group/@next/env/-/env-11.0.1.tgz#6dc96ac76f1663ab747340e907e8933f190cc8fd"
@@ -160,6 +165,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@popperjs/core@^2.9.3":
+  version "2.9.3"
+  resolved "https://nexus.elm.sa/repository/npm-group/@popperjs/core/-/core-2.9.3.tgz#8b68da1ebd7fc603999cf6ebee34a4899a14b88e"
+  integrity sha512-xDu17cEfh7Kid/d95kB6tZsLOmSWKCZKtprnhVepjsSaCij+lM3mItSJDuuHDMbCWTh8Ejmebwb+KONcCJ0eXQ==
 
 "@rushstack/eslint-patch@^1.0.6":
   version "1.0.6"
@@ -424,6 +434,11 @@ bn.js@^5.0.0, bn.js@^5.1.1:
   version "5.2.0"
   resolved "https://nexus.elm.sa/repository/npm-group/bn.js/-/bn.js-5.2.0.tgz#358860674396c6997771a9d051fcc1b57d4ae002"
   integrity sha512-D7iWRBvnZE8ecXiLj/9wbxH7Tk79fAh8IHaTNq1RWRixsS02W+5qS+iE9yq6RYl0asXx5tw0bLhmT5pIfbSquw==
+
+bootstrap@^5.0.0-beta3:
+  version "5.0.0-beta3"
+  resolved "https://nexus.elm.sa/repository/npm-group/bootstrap/-/bootstrap-5.0.0-beta3.tgz#c959f61fbd03667a1b158f763856994859d7a465"
+  integrity sha512-0urccjfIOzhrb9qJysN8XW/DRw6rg3zH7qLeKIp4Zyl8+Ens4JWB0NC0cB5AhnSFPd2tftRggjwCMxablo6Tpg==
 
 brace-expansion@^1.1.7:
   version "1.1.11"

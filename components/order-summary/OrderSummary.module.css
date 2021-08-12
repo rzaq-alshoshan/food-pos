@@ -1,0 +1,251 @@
+.orderDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background: #1F1D2B;
+    border-radius: 8px;
+    font-family: Barlow;
+    color: #FFFFFF;
+}
+
+.orderDetails h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.orderHeader {
+    width: 100%;
+    align-items: flex-start;
+}
+
+.eatingOptions {
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.eatingOptions .btn {
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 8px;
+    background: #1F1D2B;
+    border: 1px solid #393C49;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #EA7C69;
+    margin-left: 0px;
+    height: 34px;
+}
+
+.eatingOptions .selected +.btn {
+    background: #EA7C69;
+    color: #FFFFFF;
+}
+
+.orderSummaryHeader {
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.orderSummaryHeader span:nth-child(2) {
+    position: absolute;
+    left: 257px;
+}
+
+.orderSummaryHeader span:nth-child(3) {
+    position: absolute;
+    left: 324px;
+}
+
+.orderDetails hr {
+    width: 100%;
+    border: 1px solid #393C49;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.orderSummary {
+    overflow-y: scroll;
+    flex-grow: 1;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.orderSummary::-webkit-scrollbar {
+    display: none;
+}
+
+.orderRow {
+    display: flex;
+    min-width: 361px;
+}
+
+.order .orderRow:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.order {
+    margin-bottom: 24px;
+}
+
+.orderRow .image {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.orderRow .image img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.orderRow .dish {
+    width: 140px;
+    height: 39px;
+    margin-left: 8px;
+}
+
+.orderRow .dish .dishName {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.orderRow .dish .price {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: #ABBBC2;
+}
+
+.orderRow .totalPrice {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+
+.orderRow .qty input {
+    width: 48px;
+    height: 48px;
+    background: #2D303E;
+    border: 1px solid #393C49;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-left: 61px;
+    text-align: center;
+}
+
+.orderRow .notes input {
+    width: 297px;
+    height: 48px;
+    background: #2D303E;
+    border: 1px solid #393C49;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #E0E6E9;
+}
+
+.orderRow .delete {
+    margin-left: 16px;
+    border: 1px solid #EA7C69;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 8px;
+    height: 48px;
+    width: 48px;
+    display: flex;
+}
+
+.order .delete .btn svg {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    color: #EA7C69;
+}
+
+.totalBox {
+    height: 200px;
+    align-items: flex-start;
+    width: 409px;
+    padding: 0px;
+    background: #1F1D2B;
+}
+
+.totals {
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.subTotal {
+    display: flex;
+    flex-direction: row;
+}
+
+.subTotal:first-child {
+    align-items: flex-start;
+    flex: 1;
+}
+
+.subTotal:last-child {
+    align-items: flex-end;
+    flex: 2;
+}
+
+.subTotal .title {
+    align-items: flex-start;
+    flex: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ABBBC2;
+}
+
+.subTotal .amount {
+    align-items: flex-end;
+    flex: 2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.continueButton .btn {
+    background: #EA7C69;
+    box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFAFA;
+    height: 48px;
+    width: 100%
+}
