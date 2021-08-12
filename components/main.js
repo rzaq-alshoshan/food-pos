@@ -129,7 +129,7 @@ class MainPage extends Component {
 
     clearPayment = (e) => {
         e.preventDefault();
-        this.setState({ success: false, orderNumber: ++this.state.orderNumber });
+        this.setState({ success: false, orderNumber: this.state.orderNumber + 1 });
     }
 
     render() {

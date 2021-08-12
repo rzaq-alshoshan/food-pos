@@ -1,6 +1,7 @@
 
 import { Icon } from '@iconify/react';
 import styles from '../Payment.module.css'
+import Image from 'next/image'
 
 import { Component } from 'react'
 
@@ -10,7 +11,7 @@ class Dish extends Component {
             <div className={styles.order}>
                 <div className={styles.orderRow}>
                     <div className={styles.image}>
-                        <img src={this.props.dish.image} />
+                        <Image src={this.props.dish.image} />
                     </div>
 
                     <div className={styles.dish}>
