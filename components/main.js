@@ -95,7 +95,6 @@ class MainPage extends Component {
     }
 
     onDeleteClick = (dishId) => {
-        e.preventDefault();
         let addedItems = this.state.addedItems ? this.state.addedItems : [];
         let itemIndex = addedItems.findIndex(it => it.id === dishId);
 
@@ -128,7 +127,6 @@ class MainPage extends Component {
     }
 
     clearPayment = (e) => {
-        e.preventDefault();
         this.setState({ success: false, orderNumber: this.state.orderNumber + 1 });
     }
 

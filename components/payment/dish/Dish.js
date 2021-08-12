@@ -37,7 +37,7 @@ class Dish extends Component {
 
                     <div className={styles.delete}>
                         <button type="button" className={`${styles.btn} btn`}
-                            onClick={(e) => this.props.onDeleteClick(this.props.dish.id)}>
+                            onClick={(e) => { e.stopPropagation(); this.props.onDeleteClick(this.props.dish.id) }}>
                             <Icon icon="octicon:trash-16" />
                         </button>
                     </div>
