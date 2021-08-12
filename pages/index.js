@@ -9,7 +9,7 @@ export default function Home() {
                 <title>Food POS</title>
                 <meta name="description" content="Food POS system using Next.js" />
                 <link rel="icon" href="/favicon.ico" />
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow&display=optional" />
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow" />
 
             </Head>
 
