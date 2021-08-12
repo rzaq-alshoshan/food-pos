@@ -1,5 +1,5 @@
 
-import Dish from '../Dish/Dish';
+import Dish from '../dish/Dish';
 import Header from '../header/Header';
 import styles from '../OrderSummary.module.css'
 import { Component } from 'react'
