@@ -1,7 +1,6 @@
 
 import styles from '../Menu.module.css'
 import { Component } from 'react'
-import Image from 'next/image'
 
 class Dish extends Component {
     render() {
@@ -9,7 +8,7 @@ class Dish extends Component {
             <div className={`col ${styles.col}`} onClick={(e) => this.props.onDishClick(this.props.dish)}>
                 <div className={styles.dish}>
                     <div className={styles.image}>
-                        <Image src={this.props.dish.image} />
+                        <img src={this.props.dish.image} />
                     </div>
                     <div className={styles.details}>
                         <div className={styles.name}>
